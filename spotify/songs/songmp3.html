@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Song Links</title>
+  </head>
+  <body>
+    <h2>Song Links</h2>
+
+    <table border="1">
+      <tr>
+        <th>Song Title</th>
+        <th>Artist</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>Shape of You</td>
+        <td>Ed Sheeran</td>
+        <td>
+          <a
+            href="https://www.youtube.com/watch?v=V0eQyoIcH6U&list=RDGMEMQvslUU5QcbUzJ7HyWoWAAAVMV0eQyoIcH6U&start_radio=1&ab_channel=RishithYadav  "
+            >Listen</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Someone Like You</td>
+        <td>Adele</td>
+        <td>
+          <a
+            href="https://www.youtube.com/watch?v=KmUXTTu6hRM&list=RDGMEMQvslUU5QcbUzJ7HyWoWAAAVMV0eQyoIcH6U&index=2&ab_channel=RaghwendraDubey"
+            >Listen</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Bohemian Rhapsody</td>
+        <td>Queen</td>
+        <td>
+          <a
+            href="https://www.youtube.com/watch?v=xJyiIgAKNJA&list=RDGMEMQvslUU5QcbUzJ7HyWoWAAAVMV0eQyoIcH6U&index=3&ab_channel=AvinashGupta-Topic"
+            >Listen</a
+          >
+        </td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </table>
+    <script>
+           
+           async function fetchData(){
+              let fetching =  await fetch(`http://127.0.0.1:5500/songs/`) 
+               let res = await fetching.text()
+              console.log(res);
+           }
+
+            fetchData()
+
+           
+    </script>
+  </body>
+</html>

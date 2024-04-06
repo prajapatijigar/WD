@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    font-family: "Gothic A1", Poppins;
+    background-color: black;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+}
+.card:hover .play-btn {
+    position: absolute;
+    background-color: rgb(30, 215, 96);
+    width: 51px;
+    right: 25px;
+    bottom: 96px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.card:hover .play-btn {
+    position: absolute;
+    background-color: rgb(30, 215, 96);
+    width: 51px;
+    right: 25px;
+    bottom: 96px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.play-btn {
+    display: none;
+}
+.play-btn i {
+    color: black;
+    font-size: 21px;
+}
+.left-side {
+    flex-direction: column;
+    gap: 10px;
+}
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgb(167, 167, 167);
+}
+.left-footer span {
+    font-size: 11px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.-main-library {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.spotify-home {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.home-search > div {
+    margin-bottom: 15px;
+}
+.spotify-home {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.home-search > div {
+    margin-bottom: 15px;
+}
+.library-box {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.library-box span {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgb(167, 167, 167);
+}
+.library-box img {
+    width: 25px;
+}
+.library-box i {
+    margin-inline-start: auto; color: rgb(167, 167, 167);
+    font-size: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.primery-with-buttons {
+    display: flex;
+}
+.left-right-angle i {
+    padding: 0px 12px;
+    font-size: 23px;
+    color: rgb(167, 167, 167);
+}
+.primery-with-buttons button {
+    background: none;
+    color: rgb(167, 167, 167);
+    border: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 19px;
+    padding: 7px;
+}
+.primery-with-buttons button:hover {
+    color: rgb(255, 255, 255);
+}
+.primery-box button {
+    letter-spacing: 2px;
+}
+.right-border {
+    border-right: 10px;
+    color: red;
+}
+.divider::after {
+    content: "";
+    background: rgba(167, 167, 167, 0.5);
+    position: relative;
+    display: inline-block;
+    width: 2px;
+    height: 30px;
+    margin: 0px 13px;
+}
+button.login {
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 8px 23px;
+    color: black;
+}
+button.login:hover {
+    border-radius: 25px;
+    padding: 8px 28px;
+    color: black;
+}
+.spotify-playlist-sec h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+main {
+    background: rgba(167, 167, 167, 0.09);
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.32);
+    border-radius: 13px;
+    position: relative;
+}
+.card h4 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.card p {
+    font-size: 13px;
+    color: rgb(167, 167, 167);
+}
+.card:hover {
+    background: rgba(186, 174, 174, 0.24);
+}
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.content-footer {
+    display: contents;
+}
+.content-footer p {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #a7a7a7;
+    text-transform: capitalize;
+}
+.grey-divider:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #a7a7a754;
+}
+.small-footer {
+    padding: 50px 0;
+}
+
+.small-footer span {
+    color: #a7a7a7;
+    font-weight: 800;
+}
+.icon-footer {
+    display: flex;
+    gap: 20px;
+}
+.icon-footer > div {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #a7a7a74a;
+}
+.icon-footer i {
+    color: white;
+}
+.sign-up {
+    display: flex;
+}
+
+.sign-up > div {
+    width: 121px;
+    text-align: center;
+}

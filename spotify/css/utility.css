@@ -1,0 +1,24 @@
+.d-flex{
+    display: flex;
+}
+.grey{
+    background-color: #b3b3b321;
+}
+.col-3{
+    width: 25%;
+}
+.col-9{
+    width: 75%;
+}
+.b-radius{
+    border-radius: 7px;
+}
+.p-3{
+    padding: 16px;
+}
+.mr{
+    margin-right: 10px;
+}
+.white{
+    color: #fff !important  ;
+}
