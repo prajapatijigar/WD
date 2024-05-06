@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+ /* utilities class */
+
+header{
+     display: flex;
+     padding: 20px 30px;
+     color: white;
+     flex-direction: column;
+     background-image:url("./Images/inner-banner-bg.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     height: 100vh;
+}
+.first-header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   z-index: 100;
+}
+.logo h3{
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-transform: uppercase;
+}  
+.menu-list{
+     display: flex;
+}
+
+.menu-list ul{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 50px;
+     justify-content: center;
+}
+ .menu-list ul>li{
+     font-size: 15px;
+     text-transform: uppercase;
+     list-style:  none;
+     border-bottom: 3px  solid transparent;
+
+ }
+ .menu-list ul>li:hover{
+     border-bottom: 3px  solid #ff2953;
+ }
+ .container{
+    width: 1300px;
+    margin: 0 auto;
+ }
+ .innr-bnnr{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     margin-top:30px;
+     position: relative;
+     z-index: 100;
+ }
+ h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 10px;
+ }
+ h2{
+    font-size: 2.7rem;
+    text-transform: uppercase;
+}
+ h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+ }
+ p{
+    text-align: center;
+ }
+ .contact-btn {
+     padding: 10px 30px;
+     background-color: transparent;
+     border: 1px solid white;
+     color: white;
+     outline: none;
+     margin:40px 0;
+     font-size: 15px;
+     text-transform: uppercase;
+ }
+ .contact-btn:hover{
+     background-color: white;
+     color: black;
+ }
+ .bginner-banner{
+      width: 100%;
+      height: 100vh;
+      background-color: #522633;
+      opacity: 0.8;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  .gym-qaulity{
+      background-image: url("./Images/why-choose-bg.jpg");
+      background-position: center;
+      background-size:cover;
+      position: relative; 
+      z-index: 100;
+      color: white;
+      background-attachment: fixed;
+      padding: 100px 0;
+  }
+  .why-choose-us h2{
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 10px;
+      color: white;
+      font-weight: bold;
+  }
+  .intrument{
+      text-align: center;
+      position: relative;
+      padding: 20px;
+  }
+  .intrument h4{
+     font-size: 1.25rem;
+     margin-bottom: 5px;
+  }
+  .purple-theme{
+     width: 100%;
+     height: 100%;
+     background-color:#242132;
+     opacity: 0.8;
+     position: absolute;
+     z-index: -99;
+     top: 0;
+     left: 0;
+  }
+  .healthy-mind{
+     padding: 100px 0;
+     background-image: url("./Images/asian-girl-fitness.jpg");
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     z-index: 100;
+     text-align: center;
+     background-attachment: fixed;
+  }
+  .healthy-theme {
+    width: 100%;
+    height: 100%;
+    background: #522633;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+}  
+
+.read-more {
+    padding: 10px 30px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    border: 1px solid  white;
+    margin: 36px 0;
+}
+.read-more:hover {
+    background-color: white;
+    color: black;
+}
+
+.gym-trainer{
+     background-image: url("./Images/our-gym-trainer.jpg");
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     z-index: -100;
+     background-attachment: fixed;
+     color: white;
+     padding: 100px 0 ;
+}
+.icon-with-cart{
+     position: relative;
+}
+.icon-with-cart h4{
+       text-align: center;
+       font-size: 1.25rem;
+       font-weight: bold;
+       text-transform: capitalize;
+       margin-bottom: 5px;
+}
+.icon-with-cart img{ 
+     border-radius: 20px;
+}
+.three-icon{
+     background: white;
+     color: #fd2121;
+     font-size: 25px;
+     display:flex;
+     border-radius: 20px;
+     align-items: center;
+     padding: 5px 40px;
+     position: absolute;
+     bottom: -16px;
+     left: 90px;
+     gap: 30px;
+}
+
+.left-side{
+     height: 100%;
+}   
+.left-side img{
+     width: 100%;
+     height: 100%;
+}
+.right-side {
+    padding: 100px 39px;
+    color: white;
+    height: 100%;
+}
+.right-side h3{
+     font-size: 2rem;
+     margin-bottom: 20px;
+}
+.right-side h3::after{
+     display: block;
+     content: "";
+     width: 60px;
+     position: relative;
+     top: -4px;
+     height: 5px;
+     background: #ff2953;
+ }
+
+ .right-side form input{
+      width: 100%;
+      padding: 15px;
+      outline: none;
+      margin-bottom:20px;
+      font-size: 15px;
+ }
+ .massege{
+    width: 100%;
+    outline: none;
+    padding: 60px 10px !important;
+    font-size: 15px;
+}
+ .send{
+     float: right;
+     padding: 15px 60px;
+     cursor: pointer;
+     text-transform:uppercase;
+     font-size: 16px;
+     border: none;
+     color: white;
+     background-color: #ff2953;
+     margin: 10px 0;
+ }
+ .information-icon{
+     padding: 50px 0;
+ }
+ .two-icon-items{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .main-info{
+     display: flex;
+     align-items: center;
+     color: white;
+     gap: 20px;
+     justify-content: space-around;
+     width: 60%;
+     margin: 0 auto;
+ }
+ .two-icon-items{
+     display:flex;
+     align-items: center;
+     cursor: pointer;
+     flex-direction: column;
+     gap: 20px;
+     justify-content: center;
+ }
+ .two-icon-items i{
+     font-size: 30px ;
+     
+ }
+ .two-icon-items span{
+     font-size: 16px;
+ }
+ .copy{
+     padding: 20px 0;
+     text-align: center;
+ }
+ 
+  
+
+
+ 
+    

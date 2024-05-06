@@ -1,0 +1,43 @@
+.row{
+    display: flex;
+  }
+  .col-70{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .line::after {
+    content: "";
+    display: block;
+    background: red;
+    width: 62px;
+    height: 4px;
+    position: relative;
+    left: 620px;
+}
+.col-25{
+     width: 23%;
+}
+.col-50{
+     width: 50%;
+}
+.py-3{
+     padding: 30px 0;
+}
+.jcs{
+      justify-content: space-evenly;
+}
+.col-40{
+     width: 40%;
+}
+.white{
+     color: white;
+}
+.col-30{
+    width: 30%;
+}
+.bg-blue{
+     background-color: #27223f;
+}
+.bg-purple{
+     background-color: #252233;
+}
